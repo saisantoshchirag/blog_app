@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b8c92513-3a1e-487a-b8d1-a8f281fb2253" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1Rh3Z60f3TwoHFMulstcr7iLd53" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="django_pro" type="Python.DjangoServer" factoryName="Django server">
+      <module name="django_pro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8c92513-3a1e-487a-b8d1-a8f281fb2253" name="Default Changelist" comment="" />
+      <created>1539525210527</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539525210527</updated>
+      <workItem from="1570105553889" duration="9965000" />
+      <workItem from="1570175026763" duration="4773000" />
+      <workItem from="1570872793360" duration="2637000" />
+      <workItem from="1571899024738" duration="2546000" />
+      <workItem from="1572512377118" duration="2074000" />
+      <workItem from="1572930560020" duration="178000" />
+      <workItem from="1572958146526" duration="1047000" />
+      <workItem from="1573115350630" duration="1704000" />
+      <workItem from="1573220318006" duration="1197000" />
+      <workItem from="1573276234665" duration="589000" />
+      <workItem from="1573379538838" duration="2536000" />
+      <workItem from="1573825970588" duration="792000" />
+      <workItem from="1574061909673" duration="5502000" />
+      <workItem from="1574257951421" duration="1822000" />
+      <workItem from="1574329791542" duration="986000" />
+      <workItem from="1574345959741" duration="2433000" />
+      <workItem from="1574445173746" duration="821000" />
+      <workItem from="1582638702045" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

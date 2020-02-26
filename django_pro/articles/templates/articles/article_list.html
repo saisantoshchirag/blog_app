@@ -1,0 +1,39 @@
+{% extends 'base_layout.html' %}
+{% block headblock %}
+<title>Articles</title>
+    <style>
+        body{
+                background-color: #1F2833;
+    color:#66FCF1;
+
+        }
+
+        table,tr,td{
+            border: 100px solid black;
+            border-collapse: collapse;
+        }
+        .tab{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        tr,td{
+            width:1000px;
+        }
+    </style>
+{% endblock headblock %}
+
+{% block content%}
+    <h1>Articles  </h1>
+<div class="wrapper">
+    <table class="tab">
+        <tr>
+        {% for article in articles%}
+                <h2> <a href="{% url 'articles:detail' slug=article.slug %}"> {{article.title}}</a> </h2>
+                <p>{{article.snippet}} </p>
+                <p>{{article.date}} </p>
+            <br><br>
+        {% endfor %}
+        </tr>
+        </table>
+    </div>
+{% endblock content%}

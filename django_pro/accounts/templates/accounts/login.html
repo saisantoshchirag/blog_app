@@ -1,0 +1,34 @@
+{% extends 'base_layout.html' %}
+
+{% block style %}
+    .helptext{
+visibility:hidden;
+}
+{% endblock style %}
+
+{% block content %}
+    <h1>Login</h1>
+    <form class="site-form" action="{% url 'accounts:login' %} " method="post">
+        {% csrf_token %}
+
+        {{form}}
+        <input type="checkbox" onclick="toggle()"> Show password
+        {% if request.GET.next %}
+            <input type="hidden" name="next" value="{{request.GET.next}}">
+        {% endif %}
+        <input type="submit" value="Login">
+
+     </form>
+
+<script>
+    function toggle() {
+        const pass = document.getElementById("id_password");
+        if(pass.type === "password") {
+            pass.type = "text";
+        } else {
+            pass.type = "password";
+        }
+    }
+</script>
+
+{% endblock %}

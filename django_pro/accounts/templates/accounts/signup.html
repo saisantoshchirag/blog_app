@@ -1,0 +1,30 @@
+{% extends 'base_layout.html' %}
+{% load static %}
+{% block headblock %}
+<title> Signup </title>
+<style>
+    .helptext{
+        visibility: hidden;
+    }
+</style>
+{% endblock headblock %}
+
+
+{% block content %}
+    <h1>Signup</h1>
+    <form class="site-form" action="/accounts/signup/" method="post">
+        {% csrf_token %}
+
+        {{form}}
+        <img src="{% static '01.png' %}" height="66px" width="110px">
+        <br><label for="captcha">Please enter captcha</label>
+        <input type="text" name="captcha" id="captcha">
+
+        <input type="submit" value="Signup">
+
+     </form>
+
+
+
+
+{% endblock content%}
